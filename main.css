@@ -8,6 +8,13 @@ body {
   padding: 0;
 }
 
+h2 {
+margin-top: 5rem;
+text-align: center;
+color: white;
+font-size: 2rem;
+}
+
 .drumkit-container {
   color: white;
   display: flex;
@@ -24,4 +31,9 @@ body {
   padding: 1%;
   margin-right: 1%;
   flex: 1;
+}
+
+.playing {
+  transform: scale(1.1)
+  /*border: 3px solid red;*/
 }
